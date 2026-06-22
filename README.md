@@ -31,40 +31,16 @@ A high-performance GraphRAG pipeline that unifies semantic vector spaces with st
 - Python 3.10+ recommended
 - `requirements.txt` lists necessary Python packages
 - For `chromadb` you may need `onnxruntime` installed separately on some platforms
+QUICK START: 
 
-## Quickstart
+PowerShell
+# 1. Start the FastAPI Backend Engine
+uvicorn api:app --reload
 
-1. Create and activate a virtual environment:
+# 2. Start the React UI Dashboard
+cd frontend
+npm run dev
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-pip install "unstructured[md]"
-```
-
-3. Create the Chroma DB (this reads your source corpus and writes vectors):
-
-```bash
-python create_database.py
-```
-
-4. Query the DB:
-
-```bash
-python query_data.py "Your question here"
-```
-
-5. (Optional) Generate a small synthetic benchmark using your configured Groq/LLM key:
-
-```bash
-python generate_benchmark.py
-```
 
 ## Notes on large files
 - `data/job_descriptions.csv` is intentionally excluded from the repository (it is large). Keep large datasets out of Git — use Git LFS, releases, or external storage and add a small sample instead.
