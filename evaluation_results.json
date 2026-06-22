@@ -1,0 +1,151 @@
+[
+  {
+    "query": "What is the name engraved on the brass plate on the door of the house?",
+    "expected": "W. Rabbit",
+    "actual": "Based on the passage from the BOOK CONTEXT section, the name engraved on the brass plate on the door of the house is \"W. RABBIT.\"",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 4.958430528640747,
+    "type": "lookup",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "What did the Caterpillar remark about the mushroom as it crawled away?",
+    "expected": "One side will make you grow taller, and the other side will make you grow shorter.",
+    "actual": "Based on the BOOK CONTEXT section, as the Caterpillar crawled away, it merely remarked, \"One side will make you grow taller, and the other side will make you grow shorter.\"",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 0.519324541091919,
+    "type": "synthesis",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "Who did the King offer to fetch when he hurried off?",
+    "expected": "the executioner",
+    "actual": "Based on the BOOK CONTEXT section, the King offered to fetch the executioner himself when he hurried off.",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 0.8220629692077637,
+    "type": "lookup",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "What does Project Gutenberg exist due to?",
+    "expected": "The efforts of hundreds of volunteers and donations from people in all walks of life.",
+    "actual": "Based on the BOOK CONTEXT section, Project Gutenberg exists due to the efforts of hundreds of volunteers and donations from people in all walks of life.",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 0.4245293140411377,
+    "type": "synthesis",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "Why did the March Hare tell Alice that she should say what she means?",
+    "expected": "Because she said she thought she could find out the answer to a riddle, but didn't actually say what she meant.",
+    "actual": "Based on the RECENT LIVE CHAT HISTORY, we were discussing the Caterpillar's remark about the mushroom, the King's offer to fetch the executioner, and the purpose of Project Gutenberg. \n\nNow, regarding your current question, according to the BOOK CONTEXT section, the March Hare told Alice that she should say what she means because he said, \"Then you should say what you mean,\" after Alice said, \"Exactly so,\" in response to his question about whether she meant to find out the answer to the riddle about the raven and the writing-desk.",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 0.9575254917144775,
+    "type": "reasoning",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "What was the Dormouse's initial answer to Alice's question?",
+    "expected": "It was a treacle-well.",
+    "actual": "Based on the RECENT LIVE CHAT HISTORY and the BOOK CONTEXT section, we were discussing the conversation between Alice and the March Hare, the Hatter, and the Dormouse. \n\nRegarding your current question, according to the BOOK CONTEXT section, the Dormouse's initial answer to Alice's question \"Why did they live at the bottom of a well?\" was \"They lived on treacle.\"",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 8.70481252670288,
+    "type": "lookup",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "According to Alice, what type of thing the object is?",
+    "expected": "a vegetable",
+    "actual": "Based on the RECENT LIVE CHAT HISTORY and the BOOK CONTEXT section, I can see that we were discussing the conversation between Alice and the March Hare, the Hatter, and the Dormouse. \n\nRegarding your current question, according to the BOOK CONTEXT section, when Alice was trying to figure out what to do with the creature she had caught, she thought to herself, \"Now, what am I to do with this creature when I get it home?\" This implies that she considered the creature to be a thing or an object that she could carry home.",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)"
+    ],
+    "latency": 11.355067729949951,
+    "type": "reasoning",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "What happens to the candle after it is blown out?",
+    "expected": "It is extinguished",
+    "actual": "Based on the RECENT LIVE CHAT HISTORY and the BOOK CONTEXT section, we were discussing Alice's conversation with the Caterpillar and her thoughts about shrinking and disappearing like a candle. \n\nRegarding your current question, according to the BOOK CONTEXT section, when Alice thought about what she would be like after being blown out like a candle, she tried to fancy what the flame of a candle is like after the candle is blown out. However, she couldn't remember ever having seen such a thing. This implies that she didn't know what happens to a candle after it is blown out, and she was trying to imagine it.",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 12.727335214614868,
+    "type": "lookup",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "What did Alice wish would happen to her in the room?",
+    "status": "ERROR",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=15.0)"
+  },
+  {
+    "query": "When Alice tried to hit the hedgehog with the flamingo, what would often happen to the hedgehog?",
+    "status": "ERROR",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=15.0)"
+  },
+  {
+    "query": "What happened to the arches?",
+    "status": "ERROR",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=15.0)"
+  },
+  {
+    "query": "What is the approximate amount the Mouse considers the tool worth?",
+    "status": "ERROR",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=15.0)"
+  },
+  {
+    "query": "What did the Dodo say to Alice when she handed over the thimble?",
+    "expected": "We beg your acceptance of this elegant thimble;",
+    "actual": "Based on the RECENT LIVE CHAT HISTORY and the BOOK CONTEXT section, when Alice handed over the thimble, the Dodo said, \"Hand it over here.\"",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 3.5498392581939697,
+    "type": "lookup",
+    "status": "SUCCESS"
+  },
+  {
+    "query": "What did the Dormouse call the well at first?",
+    "status": "ERROR",
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=8001): Read timed out. (read timeout=15.0)"
+  },
+  {
+    "query": null,
+    "status": "SERVER_ERROR",
+    "error": "{\"detail\":[{\"type\":\"string_type\",\"loc\":[\"body\",\"message\"],\"msg\":\"Input should be a valid string\",\"input\":null}]}"
+  },
+  {
+    "query": "What is Project Gutenberg\u00e2\u201e\u00a2 synonymous with?",
+    "expected": "The free distribution of electronic works in formats readable by a wide variety of computers.",
+    "actual": "Based on the RECENT LIVE CHAT HISTORY and the BOOK CONTEXT section, Project Gutenberg is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers, including obsolete, old, middle-aged, and new computers.",
+    "sources": [
+      "data\\books\\alice_in_wonderland.md (Trust: 0.5)",
+      "alice_in_wonderland.md (Trust: 0.89)"
+    ],
+    "latency": 11.84556269645691,
+    "type": "synthesis",
+    "status": "SUCCESS"
+  }
+]

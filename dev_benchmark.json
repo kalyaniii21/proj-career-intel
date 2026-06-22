@@ -1,0 +1,82 @@
+[
+  {
+    "query": "What is the name engraved on the brass plate on the door of the house?",
+    "expected_answer": "W. Rabbit",
+    "type": "lookup"
+  },
+  {
+    "query": "What did the Caterpillar remark about the mushroom as it crawled away?",
+    "expected_answer": "One side will make you grow taller, and the other side will make you grow shorter.",
+    "type": "synthesis"
+  },
+  {
+    "query": "Who did the King offer to fetch when he hurried off?",
+    "expected_answer": "the executioner",
+    "type": "lookup"
+  },
+  {
+    "query": "What does Project Gutenberg exist due to?",
+    "expected_answer": "The efforts of hundreds of volunteers and donations from people in all walks of life.",
+    "type": "synthesis"
+  },
+  {
+    "query": "Why did the March Hare tell Alice that she should say what she means?",
+    "expected_answer": "Because she said she thought she could find out the answer to a riddle, but didn't actually say what she meant.",
+    "type": "reasoning"
+  },
+  {
+    "query": "What was the Dormouse's initial answer to Alice's question?",
+    "expected_answer": "It was a treacle-well.",
+    "type": "lookup"
+  },
+  {
+    "query": "According to Alice, what type of thing the object is?",
+    "expected_answer": "a vegetable",
+    "type": "reasoning"
+  },
+  {
+    "query": "What happens to the candle after it is blown out?",
+    "expected_answer": "It is extinguished",
+    "type": "lookup"
+  },
+  {
+    "query": "What did Alice wish would happen to her in the room?",
+    "expected_answer": "She wished they could pull her out of the window.",
+    "type": "reasoning"
+  },
+  {
+    "query": "When Alice tried to hit the hedgehog with the flamingo, what would often happen to the hedgehog?",
+    "expected_answer": "It would unroll itself.",
+    "type": "synthesis"
+  },
+  {
+    "query": "What happened to the arches?",
+    "expected_answer": "They are gone from this side of the ground.",
+    "type": "lookup"
+  },
+  {
+    "query": "What is the approximate amount the Mouse considers the tool worth?",
+    "expected_answer": "A hundred pounds",
+    "type": "lookup"
+  },
+  {
+    "query": "What did the Dodo say to Alice when she handed over the thimble?",
+    "expected_answer": "We beg your acceptance of this elegant thimble;",
+    "type": "lookup"
+  },
+  {
+    "query": "What did the Dormouse call the well at first?",
+    "expected_answer": "a treacle-well",
+    "type": "lookup"
+  },
+  {
+    " queen": "What did the Queen call Alice?",
+    "expected_answer": "Idiot",
+    "type": "lookup"
+  },
+  {
+    "query": "What is Project Gutenberg™ synonymous with?",
+    "expected_answer": "The free distribution of electronic works in formats readable by a wide variety of computers.",
+    "type": "synthesis"
+  }
+]

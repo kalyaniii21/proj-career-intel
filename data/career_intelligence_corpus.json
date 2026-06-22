@@ -1,0 +1,332 @@
+[
+  {
+    "entity_id": "role_python_backend_engineer",
+    "title": "Python Backend Engineer",
+    "type": "Role",
+    "description": "Python Backend Engineers design and maintain server-side application logic, REST APIs, data models, authentication flows, background jobs, and integrations that power web and mobile products.",
+    "aliases": ["Backend Developer", "API Engineer", "Server-Side Engineer", "FastAPI Developer"],
+    "skills": ["Python", "FastAPI", "Django", "REST APIs", "SQL", "PostgreSQL", "Redis", "authentication", "testing", "system design"],
+    "tools": ["FastAPI", "Django", "PostgreSQL", "Redis", "Docker", "Git", "Pytest", "Postman", "Uvicorn"],
+    "responsibilities": [
+      "Build secure REST API endpoints with validation, pagination, and useful error responses.",
+      "Design relational database schemas and write efficient SQL queries.",
+      "Implement authentication, authorization, caching, and background task patterns.",
+      "Write unit and integration tests for core business logic.",
+      "Debug production issues using logs, traces, database inspection, and reproducible test cases."
+    ],
+    "project_ideas": [
+      "Build a job-application tracker API with authentication, PostgreSQL, filtering, and status history.",
+      "Create a FastAPI recommendation service that ranks roles by skills and stores search history.",
+      "Add Redis caching and background jobs to speed up repeated dashboard queries."
+    ],
+    "interview_questions": [
+      "How would you design a REST API for search and filtering?",
+      "How do indexes improve database query performance?",
+      "How would you debug a slow endpoint in production?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.92
+    }
+  },
+  {
+    "entity_id": "role_java_backend_engineer",
+    "title": "Java Backend Engineer",
+    "type": "Role",
+    "description": "Java Backend Engineers build scalable server-side services, enterprise APIs, database integrations, and business workflows using Java ecosystems such as Spring Boot.",
+    "aliases": ["Java Developer", "Spring Boot Developer", "Backend Software Engineer"],
+    "skills": ["Java", "Spring Boot", "REST APIs", "SQL", "microservices", "JUnit", "Hibernate", "security", "performance optimization"],
+    "tools": ["Spring Boot", "Maven", "Gradle", "JUnit", "Hibernate", "PostgreSQL", "MySQL", "Docker", "Git"],
+    "responsibilities": [
+      "Develop Spring Boot services for business workflows and API integrations.",
+      "Map domain models to relational databases using ORM and SQL.",
+      "Write tests for services, repositories, and API behavior.",
+      "Handle authentication, authorization, validation, and exception management.",
+      "Profile and optimize backend services for reliability and throughput."
+    ],
+    "project_ideas": [
+      "Build a Spring Boot employee management API with role-based access control.",
+      "Create a banking transaction simulation service with validation and audit logs.",
+      "Design a microservice that exposes product search and inventory APIs."
+    ],
+    "interview_questions": [
+      "What is dependency injection and why does Spring use it?",
+      "How do you handle transactions in a backend service?",
+      "How would you structure exception handling for an API?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.91
+    }
+  },
+  {
+    "entity_id": "role_data_analyst",
+    "title": "Data Analyst",
+    "type": "Role",
+    "description": "Data Analysts transform raw business data into reports, dashboards, insights, and recommendations that help teams make better operational and strategic decisions.",
+    "aliases": ["Business Intelligence Analyst", "BI Analyst", "Reporting Analyst"],
+    "skills": ["SQL", "Excel", "Python", "statistics", "data cleaning", "dashboarding", "data visualization", "business analysis"],
+    "tools": ["SQL", "Excel", "Power BI", "Tableau", "Python", "Pandas", "Jupyter", "Google Sheets"],
+    "responsibilities": [
+      "Clean, validate, and transform datasets for reporting and analysis.",
+      "Write SQL queries to join tables, aggregate metrics, and inspect anomalies.",
+      "Build dashboards that track KPIs and business trends.",
+      "Explain insights clearly to non-technical stakeholders.",
+      "Document metric definitions, assumptions, and data quality limitations."
+    ],
+    "project_ideas": [
+      "Analyze job postings to identify top skills by role and location.",
+      "Build a Power BI dashboard for sales, hiring, or student placement metrics.",
+      "Create a SQL case study with raw tables, cleaning steps, and final KPI report."
+    ],
+    "interview_questions": [
+      "How would you investigate a sudden drop in weekly active users?",
+      "What is the difference between inner join and left join?",
+      "How do you make sure a dashboard metric is trustworthy?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.93
+    }
+  },
+  {
+    "entity_id": "role_data_scientist",
+    "title": "Data Scientist",
+    "type": "Role",
+    "description": "Data Scientists use statistics, machine learning, experimentation, and programming to model complex problems and generate predictions or decision-support insights.",
+    "aliases": ["Machine Learning Analyst", "Applied Scientist", "ML Data Scientist"],
+    "skills": ["Python", "machine learning", "statistics", "feature engineering", "model evaluation", "SQL", "experimentation", "data storytelling"],
+    "tools": ["Python", "Pandas", "Scikit-learn", "Jupyter", "SQL", "Matplotlib", "Seaborn", "MLflow"],
+    "responsibilities": [
+      "Explore datasets and identify predictive signals or business patterns.",
+      "Train, validate, and compare machine learning models.",
+      "Evaluate models using appropriate metrics and error analysis.",
+      "Communicate model limitations, assumptions, and business impact.",
+      "Collaborate with engineers to deploy or operationalize model outputs."
+    ],
+    "project_ideas": [
+      "Build a job salary prediction notebook with feature engineering and model comparison.",
+      "Create a churn prediction analysis with precision, recall, and business recommendations.",
+      "Analyze placement data and identify factors linked to successful outcomes."
+    ],
+    "interview_questions": [
+      "How do you handle overfitting?",
+      "When would you use precision instead of recall?",
+      "How do you explain a model to a non-technical stakeholder?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.9
+    }
+  },
+  {
+    "entity_id": "role_frontend_react_developer",
+    "title": "React Frontend Developer",
+    "type": "Role",
+    "description": "React Frontend Developers build interactive user interfaces, reusable components, client-side state flows, responsive layouts, and accessible product experiences.",
+    "aliases": ["Frontend Developer", "UI Developer", "React Developer", "Web Developer"],
+    "skills": ["React", "JavaScript", "HTML", "CSS", "state management", "accessibility", "responsive design", "API integration"],
+    "tools": ["React", "Vite", "npm", "Git", "Chrome DevTools", "ESLint", "Figma", "REST APIs"],
+    "responsibilities": [
+      "Create reusable React components and predictable UI state flows.",
+      "Connect frontend screens to backend APIs with loading, error, and empty states.",
+      "Implement responsive layouts that work across mobile and desktop.",
+      "Improve accessibility using semantic HTML, keyboard support, and readable contrast.",
+      "Debug UI issues using browser dev tools and network inspection."
+    ],
+    "project_ideas": [
+      "Build a career search dashboard with filters, result cards, and saved searches.",
+      "Create a component library for buttons, tabs, cards, modals, and form fields.",
+      "Design a responsive analytics dashboard connected to a mock API."
+    ],
+    "interview_questions": [
+      "How does React state update and re-render a component?",
+      "How do you handle loading and error states for API data?",
+      "What makes a UI accessible?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.91
+    }
+  },
+  {
+    "entity_id": "role_full_stack_developer",
+    "title": "Full Stack Developer",
+    "type": "Role",
+    "description": "Full Stack Developers work across frontend, backend, databases, APIs, and deployment to deliver complete product features from user interface to persistent storage.",
+    "aliases": ["Full Stack Engineer", "Web Application Developer", "Product Engineer"],
+    "skills": ["JavaScript", "React", "Python", "Node.js", "REST APIs", "SQL", "database design", "deployment", "testing"],
+    "tools": ["React", "FastAPI", "Node.js", "PostgreSQL", "Docker", "Git", "Vite", "Render", "Vercel"],
+    "responsibilities": [
+      "Design frontend screens and backend endpoints for complete features.",
+      "Model data in a database and expose it through reliable APIs.",
+      "Handle authentication, validation, and user-facing error states.",
+      "Deploy applications and manage environment configuration.",
+      "Balance user experience, code maintainability, and system reliability."
+    ],
+    "project_ideas": [
+      "Build a full-stack placement portal with student profiles, job listings, and admin filters.",
+      "Create a project management tool with login, CRUD workflows, and dashboard charts.",
+      "Develop a knowledge-base search app with vector retrieval and user history."
+    ],
+    "interview_questions": [
+      "How does data flow from the browser to the database and back?",
+      "How would you secure a full-stack app?",
+      "How do you decide whether logic belongs in the frontend or backend?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.9
+    }
+  },
+  {
+    "entity_id": "role_devops_engineer",
+    "title": "DevOps Engineer",
+    "type": "Role",
+    "description": "DevOps Engineers automate build, test, deployment, monitoring, and infrastructure workflows so software teams can release reliable systems more frequently.",
+    "aliases": ["Cloud DevOps Engineer", "Site Reliability Engineer", "Platform Engineer"],
+    "skills": ["CI/CD", "Docker", "Linux", "cloud", "monitoring", "scripting", "infrastructure as code", "deployment", "reliability"],
+    "tools": ["Docker", "GitHub Actions", "Linux", "AWS", "Azure", "Terraform", "Kubernetes", "Prometheus", "Grafana"],
+    "responsibilities": [
+      "Create CI/CD pipelines that build, test, and deploy applications.",
+      "Containerize services and manage configuration through environment variables.",
+      "Monitor system health, logs, metrics, and incidents.",
+      "Automate infrastructure provisioning and release processes.",
+      "Improve deployment reliability, rollback safety, and operational documentation."
+    ],
+    "project_ideas": [
+      "Containerize a FastAPI and React app with Docker Compose.",
+      "Create a GitHub Actions pipeline that runs tests and builds the frontend.",
+      "Deploy an API with health checks, environment variables, and monitoring notes."
+    ],
+    "interview_questions": [
+      "What happens in a CI/CD pipeline?",
+      "How do containers differ from virtual machines?",
+      "How would you investigate a failed deployment?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.9
+    }
+  },
+  {
+    "entity_id": "role_qa_automation_tester",
+    "title": "QA Automation Tester",
+    "type": "Role",
+    "description": "QA Automation Testers design automated test suites, validate product behavior, report defects, and improve release confidence through repeatable testing workflows.",
+    "aliases": ["Software Tester", "Automation Tester", "QA Engineer", "SDET"],
+    "skills": ["test automation", "manual testing", "Selenium", "Playwright", "API testing", "test cases", "bug reporting", "regression testing"],
+    "tools": ["Selenium", "Playwright", "Postman", "Jira", "Git", "Pytest", "JUnit", "CI/CD"],
+    "responsibilities": [
+      "Write test cases from product requirements and acceptance criteria.",
+      "Automate regression tests for critical user flows.",
+      "Test APIs, forms, edge cases, and error states.",
+      "Report bugs with clear reproduction steps and expected behavior.",
+      "Collaborate with developers to prevent repeated defects."
+    ],
+    "project_ideas": [
+      "Create Playwright tests for login, search, filters, and dashboard states.",
+      "Build a Postman collection for a REST API and automate key checks.",
+      "Write a bug report portfolio with screenshots, steps, severity, and root cause notes."
+    ],
+    "interview_questions": [
+      "What is the difference between smoke, regression, and integration testing?",
+      "How do you decide what to automate?",
+      "What makes a bug report useful?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.9
+    }
+  },
+  {
+    "entity_id": "role_database_developer",
+    "title": "Database Developer",
+    "type": "Role",
+    "description": "Database Developers design schemas, write queries, optimize performance, enforce data integrity, and support applications that depend on reliable structured data.",
+    "aliases": ["SQL Developer", "Database Engineer", "Data Engineer"],
+    "skills": ["SQL", "database design", "normalization", "indexes", "query optimization", "stored procedures", "data integrity", "ETL"],
+    "tools": ["PostgreSQL", "MySQL", "SQL Server", "SQLite", "DBeaver", "pgAdmin", "Airflow"],
+    "responsibilities": [
+      "Design tables, constraints, relationships, and indexes.",
+      "Write SQL queries for reporting, APIs, and data validation.",
+      "Optimize slow queries through indexing and execution plan analysis.",
+      "Create repeatable data migration and backup practices.",
+      "Protect data quality through constraints, validation, and documentation."
+    ],
+    "project_ideas": [
+      "Design a normalized schema for a recruitment platform and write reporting queries.",
+      "Analyze a slow query and improve it with indexes and query refactoring.",
+      "Build an ETL script that cleans CSV data and loads it into PostgreSQL."
+    ],
+    "interview_questions": [
+      "What is normalization and when might denormalization be useful?",
+      "How do indexes speed up reads and affect writes?",
+      "How would you protect data integrity in a schema?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.92
+    }
+  },
+  {
+    "entity_id": "role_cloud_architect",
+    "title": "Cloud Architect",
+    "type": "Role",
+    "description": "Cloud Architects design secure, scalable, cost-aware cloud systems and guide teams on infrastructure, networking, deployment, reliability, and governance decisions.",
+    "aliases": ["Solution Architect", "Cloud Solutions Architect", "Infrastructure Architect"],
+    "skills": ["cloud architecture", "AWS", "Azure", "networking", "security", "scalability", "cost optimization", "system design"],
+    "tools": ["AWS", "Azure", "Terraform", "Docker", "Kubernetes", "CloudWatch", "IAM", "VPC"],
+    "responsibilities": [
+      "Design cloud infrastructure for application workloads and data systems.",
+      "Select services based on reliability, cost, security, and team capability.",
+      "Define networking, identity, access, monitoring, and backup patterns.",
+      "Review system architecture and guide implementation tradeoffs.",
+      "Document diagrams, risks, operational practices, and scaling plans."
+    ],
+    "project_ideas": [
+      "Draw and document a cloud architecture for a full-stack career dashboard.",
+      "Create an infrastructure plan with compute, database, storage, and monitoring choices.",
+      "Compare deployment options by cost, reliability, and operational complexity."
+    ],
+    "interview_questions": [
+      "How would you design a scalable web application on cloud infrastructure?",
+      "How do you balance cost and reliability?",
+      "What security controls should a cloud application have?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.89
+    }
+  },
+  {
+    "entity_id": "role_ui_ux_developer",
+    "title": "UI/UX Developer",
+    "type": "Role",
+    "description": "UI/UX Developers combine interface implementation, usability thinking, accessibility, and visual design detail to create product experiences users can understand and trust.",
+    "aliases": ["UI Developer", "UX/UI Developer", "Frontend UI Engineer"],
+    "skills": ["HTML", "CSS", "JavaScript", "accessibility", "responsive design", "design systems", "user flows", "prototyping"],
+    "tools": ["Figma", "React", "CSS", "Chrome DevTools", "Storybook", "Lighthouse", "Git"],
+    "responsibilities": [
+      "Translate designs into polished responsive interfaces.",
+      "Improve usability through clear information hierarchy and predictable controls.",
+      "Support accessibility with keyboard navigation, labels, and contrast.",
+      "Build reusable UI patterns and document component behavior.",
+      "Collaborate with designers, product owners, and backend developers."
+    ],
+    "project_ideas": [
+      "Redesign a dashboard result card to show score, reason, source, and next action.",
+      "Build a responsive component gallery with forms, tabs, cards, and modals.",
+      "Run a Lighthouse accessibility audit and fix the highest-impact issues."
+    ],
+    "interview_questions": [
+      "How do you turn a design into maintainable frontend code?",
+      "How do you test if an interface is accessible?",
+      "What makes a dashboard easy to scan?"
+    ],
+    "source_metadata": {
+      "authority_type": "curated_role_framework",
+      "base_trust_score": 0.88
+    }
+  }
+]
