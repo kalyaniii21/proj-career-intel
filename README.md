@@ -56,20 +56,10 @@ python generate_benchmark.py
 ## Notes on large files
 - `data/job_descriptions.csv` is intentionally excluded from the repository (it is large). Keep large datasets out of Git — use Git LFS, releases, or external storage and add a small sample instead.
 
-## Secrets & Security
-- Do NOT commit API keys or other secrets. The repository enforces push protection and secret scanning; store secrets in a local `.env` and load them with `python-dotenv` (already used in the code).
-
 ## Useful project files
 - `create_database.py` — build and persist Chroma embeddings
 - `query_data.py` — run a retrieval + answer flow against the DB
 - `generate_benchmark.py` — synthesize evaluation Q/A pairs (requires an LLM key)
 - `rag_engine.py`, `app_main.py` — higher-level orchestration and examples
 
-## Contributing
-- Open an issue or PR. For large data, provide links or instructions to download external datasets rather than committing them.
 
-## License
-MIT (add or change as appropriate)
-
----
-If you'd like, I can also add usage examples for `query_data.py` outputs or a small `Makefile`/PowerShell script to automate setup.
