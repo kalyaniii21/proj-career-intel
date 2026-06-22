@@ -1,47 +1,75 @@
-# Langchain RAG Tutorial
+# Career Intelligence Platform
 
-## Install dependencies
+Lightweight RAG (retrieval-augmented generation) demo using LangChain-style components, Chroma for vector storage, and local embedding models. This repo contains scripts to build a Chroma database from text, query it, and generate small synthetic benchmarks.
 
-1. Do the following before installing the dependencies found in `requirements.txt` file because of current challenges installing `onnxruntime` through `pip install onnxruntime`. 
+## Features
+- Build a Chroma vector DB from local text chunks
+- Query the DB with simple retrieval workflows
+- Generate a small synthetic benchmark using an LLM provider
 
-    - For MacOS users, a workaround is to first install `onnxruntime` dependency for `chromadb` using:
+## Requirements
+- Python 3.10+ recommended
+- `requirements.txt` lists necessary Python packages
+- For `chromadb` you may need `onnxruntime` installed separately on some platforms
 
-    ```python
-     conda install onnxruntime -c conda-forge
-    ```
-    See this [thread](https://github.com/microsoft/onnxruntime/issues/11037) for additonal help if needed. 
+## Quickstart
 
-     - For Windows users, follow the guide [here](https://github.com/bycloudai/InstallVSBuildToolsWindows?tab=readme-ov-file) to install the Microsoft C++ Build Tools. Be sure to follow through to the last step to set the enviroment variable path.
+1. Create and activate a virtual environment:
 
-
-2. Now run this command to install dependenies in the `requirements.txt` file. 
-
-```python
-pip install -r requirements.txt
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 ```
 
-3. Install markdown depenendies with: 
+2. Install dependencies:
 
-```python
+```bash
+pip install -r requirements.txt
 pip install "unstructured[md]"
 ```
 
-## Create database
+3. Set required environment variables in a `.env` file at the repo root (example):
 
-Create the Chroma DB.
+```
+OPENAI_API_KEY=sk_...
+GROQ_API_KEY=ghr_...
+```
 
-```python
+4. Create the Chroma DB (this reads your source corpus and writes vectors):
+
+```bash
 python create_database.py
 ```
 
-## Query the database
+5. Query the DB:
 
-Query the Chroma DB.
-
-```python
-python query_data.py "How does Alice meet the Mad Hatter?"
+```bash
+python query_data.py "Your question here"
 ```
 
-> You'll also need to set up an OpenAI account (and set the OpenAI key in your environment variable) for this to work.
+6. (Optional) Generate a small synthetic benchmark using your configured Groq/LLM key:
 
-Here is a step-by-step tutorial video: [RAG+Langchain Python Project: Easy AI/Chat For Your Docs](https://www.youtube.com/watch?v=tcqEUSNCn8I&ab_channel=pixegami).
+```bash
+python generate_benchmark.py
+```
+
+## Notes on large files
+- `data/job_descriptions.csv` is intentionally excluded from the repository (it is large). Keep large datasets out of Git — use Git LFS, releases, or external storage and add a small sample instead.
+
+## Secrets & Security
+- Do NOT commit API keys or other secrets. The repository enforces push protection and secret scanning; store secrets in a local `.env` and load them with `python-dotenv` (already used in the code).
+
+## Useful project files
+- `create_database.py` — build and persist Chroma embeddings
+- `query_data.py` — run a retrieval + answer flow against the DB
+- `generate_benchmark.py` — synthesize evaluation Q/A pairs (requires an LLM key)
+- `rag_engine.py`, `app_main.py` — higher-level orchestration and examples
+
+## Contributing
+- Open an issue or PR. For large data, provide links or instructions to download external datasets rather than committing them.
+
+## License
+MIT (add or change as appropriate)
+
+---
+If you'd like, I can also add usage examples for `query_data.py` outputs or a small `Makefile`/PowerShell script to automate setup.
