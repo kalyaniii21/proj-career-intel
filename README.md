@@ -28,26 +28,19 @@ pip install -r requirements.txt
 pip install "unstructured[md]"
 ```
 
-3. Set required environment variables in a `.env` file at the repo root (example):
-
-```
-OPENAI_API_KEY=sk_...
-GROQ_API_KEY=ghr_...
-```
-
-4. Create the Chroma DB (this reads your source corpus and writes vectors):
+3. Create the Chroma DB (this reads your source corpus and writes vectors):
 
 ```bash
 python create_database.py
 ```
 
-5. Query the DB:
+4. Query the DB:
 
 ```bash
 python query_data.py "Your question here"
 ```
 
-6. (Optional) Generate a small synthetic benchmark using your configured Groq/LLM key:
+5. (Optional) Generate a small synthetic benchmark using your configured Groq/LLM key:
 
 ```bash
 python generate_benchmark.py
