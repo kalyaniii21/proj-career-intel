@@ -1,6 +1,6 @@
-# Career Intelligence Platform
+# Langchain RAG Tutorial
 
-Lightweight RAG (retrieval-augmented generation) demo using LangChain-style components, Chroma for vector storage, and local embedding models. This repo contains scripts to build a Chroma database from text, query it, and generate small synthetic benchmarks.
+## Install dependencies
 
 *Agentic Career Intelligence Platform:* 
 
@@ -31,6 +31,31 @@ A high-performance GraphRAG pipeline that unifies semantic vector spaces with st
 - Python 3.10+ recommended
 - `requirements.txt` lists necessary Python packages
 - For `chromadb` you may need `onnxruntime` installed separately on some platforms
+
+1. Do the following before installing the dependencies found in `requirements.txt` because of current challenges installing `onnxruntime` through `pip install onnxruntime`.
+
+    - For MacOS users, a workaround is to first install `onnxruntime` dependency for `chromadb` using:
+
+    ```bash
+    conda install onnxruntime -c conda-forge
+    ```
+
+    See this [thread](https://github.com/microsoft/onnxruntime/issues/11037) for additional help if needed.
+
+    - For Windows users, follow the guide [here](https://github.com/bycloudai/InstallVSBuildToolsWindows?tab=readme-ov-file) to install the Microsoft C++ Build Tools. Be sure to follow through to the last step to set the environment variable path.
+
+2. Now run this command to install dependencies in the `requirements.txt` file.
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Install markdown dependencies with:
+
+```bash
+pip install "unstructured[md]"
+```
+
 QUICK START: 
 
 PowerShell
@@ -50,5 +75,3 @@ npm run dev
 - `query_data.py` — run a retrieval + answer flow against the DB
 - `generate_benchmark.py` — synthesize evaluation Q/A pairs (requires an LLM key)
 - `rag_engine.py`, `app_main.py` — higher-level orchestration and examples
-
-

@@ -1,0 +1,91 @@
+[
+  {
+    "id": "lookup_0015",
+    "query": "What's a good portfolio project to demonstrate Data Analyst skills?",
+    "type": "lookup",
+    "expected_entities": [
+      "Data Analyst"
+    ],
+    "expected_keywords": [
+      "SQL",
+      "Excel",
+      "data cleaning",
+      "dashboarding"
+    ],
+    "source_entity_ids": [
+      "role_data_analyst"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0017",
+    "query": "What does a Data Analyst actually do day-to-day?",
+    "type": "lookup",
+    "expected_entities": [
+      "Data Analyst"
+    ],
+    "expected_keywords": [
+      "Tableau",
+      "dashboarding",
+      "Jupyter",
+      "Google Sheets"
+    ],
+    "source_entity_ids": [
+      "role_data_analyst"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0001",
+    "query": "What are the main responsibilities of a Data Scientist?",
+    "type": "lookup",
+    "expected_entities": [
+      "Data Scientist"
+    ],
+    "expected_keywords": [
+      "Pandas",
+      "SQL",
+      "SQL",
+      "machine learning"
+    ],
+    "source_entity_ids": [
+      "role_data_scientist"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0007",
+    "query": "What core skills should someone targeting a Java Backend Engineer role focus on?",
+    "type": "lookup",
+    "expected_entities": [
+      "Java Backend Engineer"
+    ],
+    "expected_keywords": [
+      "JUnit",
+      "Spring Boot",
+      "SQL",
+      "MySQL"
+    ],
+    "source_entity_ids": [
+      "role_java_backend_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "reasoning_0000",
+    "query": "I've been using Vite to develop my React applications, but I'm struggling to decide whether to use a library like Redux or MobX to manage state. Can you help me understand when it would be best to use one over the other in a real-world scenario?",
+    "type": "reasoning",
+    "expected_entities": [
+      "React Frontend Developer"
+    ],
+    "expected_keywords": [
+      "Vite",
+      "Figma",
+      "React"
+    ],
+    "source_entity_ids": [
+      "role_frontend_react_developer"
+    ],
+    "generated_by": "llm"
+  }
+]

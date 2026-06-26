@@ -1,82 +1,656 @@
 [
   {
-    "query": "What is the name engraved on the brass plate on the door of the house?",
-    "expected_answer": "W. Rabbit",
-    "type": "lookup"
+    "id": "synthesis_0000",
+    "query": "If I already know SQL, should I lean toward Full Stack Developer or Python Backend Engineer?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Full Stack Developer",
+      "Python Backend Engineer"
+    ],
+    "expected_keywords": [
+      "SQL",
+      "Docker",
+      "Uvicorn",
+      "FastAPI"
+    ],
+    "source_entity_ids": [
+      "role_full_stack_developer",
+      "role_python_backend_engineer"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What did the Caterpillar remark about the mushroom as it crawled away?",
-    "expected_answer": "One side will make you grow taller, and the other side will make you grow shorter.",
-    "type": "synthesis"
+    "id": "lookup_0023",
+    "query": "What are the main responsibilities of a Full Stack Developer?",
+    "type": "lookup",
+    "expected_entities": [
+      "Full Stack Developer"
+    ],
+    "expected_keywords": [
+      "Render",
+      "Vite",
+      "React",
+      "testing"
+    ],
+    "source_entity_ids": [
+      "role_full_stack_developer"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "Who did the King offer to fetch when he hurried off?",
-    "expected_answer": "the executioner",
-    "type": "lookup"
+    "id": "lookup_0019",
+    "query": "What core skills should someone targeting a React Frontend Developer role focus on?",
+    "type": "lookup",
+    "expected_entities": [
+      "React Frontend Developer"
+    ],
+    "expected_keywords": [
+      "Chrome DevTools",
+      "ESLint",
+      "Vite",
+      "React"
+    ],
+    "source_entity_ids": [
+      "role_frontend_react_developer"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What does Project Gutenberg exist due to?",
-    "expected_answer": "The efforts of hundreds of volunteers and donations from people in all walks of life.",
-    "type": "synthesis"
+    "id": "lookup_0011",
+    "query": "What does a Data Scientist actually do day-to-day?",
+    "type": "lookup",
+    "expected_entities": [
+      "Data Scientist"
+    ],
+    "expected_keywords": [
+      "MLflow",
+      "statistics",
+      "model evaluation",
+      "data storytelling"
+    ],
+    "source_entity_ids": [
+      "role_data_scientist"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "Why did the March Hare tell Alice that she should say what she means?",
-    "expected_answer": "Because she said she thought she could find out the answer to a riddle, but didn't actually say what she meant.",
-    "type": "reasoning"
+    "id": "lookup_0004",
+    "query": "Which tools or technologies does a DevOps Engineer typically use?",
+    "type": "lookup",
+    "expected_entities": [
+      "DevOps Engineer"
+    ],
+    "expected_keywords": [
+      "infrastructure as code",
+      "CI/CD",
+      "Prometheus",
+      "reliability"
+    ],
+    "source_entity_ids": [
+      "role_devops_engineer"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What was the Dormouse's initial answer to Alice's question?",
-    "expected_answer": "It was a treacle-well.",
-    "type": "lookup"
+    "id": "reasoning_0005",
+    "query": "I've been working on a project where I've trained a machine learning model to predict customer churn, but the model's performance is not as good as I expected. I've already tried tuning the hyperparameters and experimenting with different algorithms, but I still can't seem to get the desired results. How would you approach this situation and what steps would you take to improve the model's performance?",
+    "type": "reasoning",
+    "expected_entities": [
+      "Data Scientist"
+    ],
+    "expected_keywords": [
+      "Matplotlib",
+      "Seaborn",
+      "MLflow"
+    ],
+    "source_entity_ids": [
+      "role_data_scientist"
+    ],
+    "generated_by": "llm"
   },
   {
-    "query": "According to Alice, what type of thing the object is?",
-    "expected_answer": "a vegetable",
-    "type": "reasoning"
+    "id": "synthesis_0001",
+    "query": "If I already know SQL, should I lean toward Database Developer or Data Analyst?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Database Developer",
+      "Data Analyst"
+    ],
+    "expected_keywords": [
+      "SQL",
+      "database design",
+      "Excel",
+      "indexes",
+      "Tableau"
+    ],
+    "source_entity_ids": [
+      "role_database_developer",
+      "role_data_analyst"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What happens to the candle after it is blown out?",
-    "expected_answer": "It is extinguished",
-    "type": "lookup"
+    "id": "lookup_0009",
+    "query": "What are the main responsibilities of a Data Analyst?",
+    "type": "lookup",
+    "expected_entities": [
+      "Data Analyst"
+    ],
+    "expected_keywords": [
+      "Python",
+      "Jupyter",
+      "Python",
+      "data visualization"
+    ],
+    "source_entity_ids": [
+      "role_data_analyst"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What did Alice wish would happen to her in the room?",
-    "expected_answer": "She wished they could pull her out of the window.",
-    "type": "reasoning"
+    "id": "synthesis_0004",
+    "query": "If I already know Python, should I lean toward Data Analyst or Data Scientist?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Data Analyst",
+      "Data Scientist"
+    ],
+    "expected_keywords": [
+      "Python",
+      "SQL",
+      "MLflow",
+      "Jupyter"
+    ],
+    "source_entity_ids": [
+      "role_data_analyst",
+      "role_data_scientist"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "When Alice tried to hit the hedgehog with the flamingo, what would often happen to the hedgehog?",
-    "expected_answer": "It would unroll itself.",
-    "type": "synthesis"
+    "id": "lookup_0016",
+    "query": "What core skills should someone targeting a Data Analyst role focus on?",
+    "type": "lookup",
+    "expected_entities": [
+      "Data Analyst"
+    ],
+    "expected_keywords": [
+      "Power BI",
+      "Python",
+      "data visualization",
+      "Excel"
+    ],
+    "source_entity_ids": [
+      "role_data_analyst"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What happened to the arches?",
-    "expected_answer": "They are gone from this side of the ground.",
-    "type": "lookup"
+    "id": "synthesis_0006",
+    "query": "How does a UI/UX Developer differ from a Python Backend Engineer in day-to-day work?",
+    "type": "synthesis",
+    "expected_entities": [
+      "UI/UX Developer",
+      "Python Backend Engineer"
+    ],
+    "expected_keywords": [
+      "Figma",
+      "Git",
+      "Django",
+      "Pytest",
+      "user flows"
+    ],
+    "source_entity_ids": [
+      "role_ui_ux_developer",
+      "role_python_backend_engineer"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What is the approximate amount the Mouse considers the tool worth?",
-    "expected_answer": "A hundred pounds",
-    "type": "lookup"
+    "id": "lookup_0021",
+    "query": "What does a React Frontend Developer actually do day-to-day?",
+    "type": "lookup",
+    "expected_entities": [
+      "React Frontend Developer"
+    ],
+    "expected_keywords": [
+      "ESLint",
+      "Figma",
+      "React",
+      "API integration"
+    ],
+    "source_entity_ids": [
+      "role_frontend_react_developer"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What did the Dodo say to Alice when she handed over the thimble?",
-    "expected_answer": "We beg your acceptance of this elegant thimble;",
-    "type": "lookup"
+    "id": "lookup_0012",
+    "query": "What does a Full Stack Developer actually do day-to-day?",
+    "type": "lookup",
+    "expected_entities": [
+      "Full Stack Developer"
+    ],
+    "expected_keywords": [
+      "REST APIs",
+      "Git",
+      "JavaScript",
+      "React"
+    ],
+    "source_entity_ids": [
+      "role_full_stack_developer"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What did the Dormouse call the well at first?",
-    "expected_answer": "a treacle-well",
-    "type": "lookup"
+    "id": "lookup_0003",
+    "query": "Which tools or technologies does a Database Developer typically use?",
+    "type": "lookup",
+    "expected_entities": [
+      "Database Developer"
+    ],
+    "expected_keywords": [
+      "data integrity",
+      "query optimization",
+      "Airflow",
+      "ETL"
+    ],
+    "source_entity_ids": [
+      "role_database_developer"
+    ],
+    "generated_by": "template"
   },
   {
-    " queen": "What did the Queen call Alice?",
-    "expected_answer": "Idiot",
-    "type": "lookup"
+    "id": "synthesis_0014",
+    "query": "How does a QA Automation Tester differ from a DevOps Engineer in day-to-day work?",
+    "type": "synthesis",
+    "expected_entities": [
+      "QA Automation Tester",
+      "DevOps Engineer"
+    ],
+    "expected_keywords": [
+      "CI/CD",
+      "test cases",
+      "Docker",
+      "AWS",
+      "JUnit"
+    ],
+    "source_entity_ids": [
+      "role_qa_automation_tester",
+      "role_devops_engineer"
+    ],
+    "generated_by": "template"
   },
   {
-    "query": "What is Project Gutenberg™ synonymous with?",
-    "expected_answer": "The free distribution of electronic works in formats readable by a wide variety of computers.",
-    "type": "synthesis"
+    "id": "synthesis_0013",
+    "query": "If I already know system design, should I lean toward Cloud Architect or Python Backend Engineer?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Cloud Architect",
+      "Python Backend Engineer"
+    ],
+    "expected_keywords": [
+      "system design",
+      "Docker",
+      "AWS",
+      "cloud architecture",
+      "Django"
+    ],
+    "source_entity_ids": [
+      "role_cloud_architect",
+      "role_python_backend_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0010",
+    "query": "What are the main responsibilities of a Java Backend Engineer?",
+    "type": "lookup",
+    "expected_entities": [
+      "Java Backend Engineer"
+    ],
+    "expected_keywords": [
+      "Java",
+      "JUnit",
+      "Spring Boot",
+      "Maven"
+    ],
+    "source_entity_ids": [
+      "role_java_backend_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0024",
+    "query": "What does a DevOps Engineer actually do day-to-day?",
+    "type": "lookup",
+    "expected_entities": [
+      "DevOps Engineer"
+    ],
+    "expected_keywords": [
+      "Grafana",
+      "Linux",
+      "Docker",
+      "reliability"
+    ],
+    "source_entity_ids": [
+      "role_devops_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "synthesis_0010",
+    "query": "How does a Database Developer differ from a Data Analyst in day-to-day work?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Database Developer",
+      "Data Analyst"
+    ],
+    "expected_keywords": [
+      "Python",
+      "SQL",
+      "MySQL",
+      "stored procedures",
+      "statistics"
+    ],
+    "source_entity_ids": [
+      "role_database_developer",
+      "role_data_analyst"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0000",
+    "query": "What does a UI/UX Developer actually do day-to-day?",
+    "type": "lookup",
+    "expected_entities": [
+      "UI/UX Developer"
+    ],
+    "expected_keywords": [
+      "prototyping",
+      "React",
+      "design systems",
+      "user flows"
+    ],
+    "source_entity_ids": [
+      "role_ui_ux_developer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "reasoning_0003",
+    "query": "I've been testing APIs as a part of my current role, but I'm considering moving into QA Automation Tester. How would you suggest I adapt my existing API testing skills to automate regression tests for critical user flows in a web application, and what specific challenges or considerations would I need to address in this transition?",
+    "type": "reasoning",
+    "expected_entities": [
+      "QA Automation Tester"
+    ],
+    "expected_keywords": [
+      "API testing",
+      "bug reporting",
+      "JUnit"
+    ],
+    "source_entity_ids": [
+      "role_qa_automation_tester"
+    ],
+    "generated_by": "llm"
+  },
+  {
+    "id": "lookup_0018",
+    "query": "What interview topics should I prepare for a UI/UX Developer position?",
+    "type": "lookup",
+    "expected_entities": [
+      "UI/UX Developer"
+    ],
+    "expected_keywords": [
+      "CSS",
+      "React",
+      "CSS",
+      "Lighthouse"
+    ],
+    "source_entity_ids": [
+      "role_ui_ux_developer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "synthesis_0008",
+    "query": "How does a Cloud Architect differ from a DevOps Engineer in day-to-day work?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Cloud Architect",
+      "DevOps Engineer"
+    ],
+    "expected_keywords": [
+      "Terraform",
+      "infrastructure as code",
+      "Docker",
+      "AWS",
+      "monitoring"
+    ],
+    "source_entity_ids": [
+      "role_cloud_architect",
+      "role_devops_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "reasoning_0008",
+    "query": "I've been learning JavaScript and I'm interested in becoming a Full Stack Developer, but I'm not sure how I can use my existing skills to handle authentication and validation for user registration, given that I don't have experience with database modeling or API design. Can you help me understand how I can apply my JavaScript knowledge to this part of the role?",
+    "type": "reasoning",
+    "expected_entities": [
+      "Full Stack Developer"
+    ],
+    "expected_keywords": [
+      "JavaScript",
+      "Vite",
+      "FastAPI"
+    ],
+    "source_entity_ids": [
+      "role_full_stack_developer"
+    ],
+    "generated_by": "llm"
+  },
+  {
+    "id": "reasoning_0001",
+    "query": "I've been working with Terraform to manage our infrastructure as code, but I'm not sure how to integrate it with our existing CI/CD pipeline. How would you approach this and what trade-offs would you consider when deciding whether to run Terraform as part of the pipeline or as a separate step?",
+    "type": "reasoning",
+    "expected_entities": [
+      "DevOps Engineer"
+    ],
+    "expected_keywords": [
+      "Terraform",
+      "scripting",
+      "Docker"
+    ],
+    "source_entity_ids": [
+      "role_devops_engineer"
+    ],
+    "generated_by": "llm"
+  },
+  {
+    "id": "synthesis_0005",
+    "query": "If I already know Docker, should I lean toward Full Stack Developer or DevOps Engineer?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Full Stack Developer",
+      "DevOps Engineer"
+    ],
+    "expected_keywords": [
+      "SQL",
+      "Docker",
+      "Vercel",
+      "cloud"
+    ],
+    "source_entity_ids": [
+      "role_full_stack_developer",
+      "role_devops_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "synthesis_0003",
+    "query": "If I already know JUnit, should I lean toward Java Backend Engineer or QA Automation Tester?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Java Backend Engineer",
+      "QA Automation Tester"
+    ],
+    "expected_keywords": [
+      "Spring Boot",
+      "test cases",
+      "JUnit",
+      "microservices"
+    ],
+    "source_entity_ids": [
+      "role_java_backend_engineer",
+      "role_qa_automation_tester"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0020",
+    "query": "Which tools or technologies does a Data Analyst typically use?",
+    "type": "lookup",
+    "expected_entities": [
+      "Data Analyst"
+    ],
+    "expected_keywords": [
+      "SQL",
+      "Python",
+      "business analysis",
+      "data visualization"
+    ],
+    "source_entity_ids": [
+      "role_data_analyst"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0022",
+    "query": "What does a Java Backend Engineer actually do day-to-day?",
+    "type": "lookup",
+    "expected_entities": [
+      "Java Backend Engineer"
+    ],
+    "expected_keywords": [
+      "SQL",
+      "security",
+      "Hibernate",
+      "Docker"
+    ],
+    "source_entity_ids": [
+      "role_java_backend_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "reasoning_0002",
+    "query": "I've been writing test cases for a while now, but I'm not sure how to prioritize which ones to automate as a QA Automation Tester. Can you help me understand what factors I should consider when deciding which test cases to automate first?",
+    "type": "reasoning",
+    "expected_entities": [
+      "QA Automation Tester"
+    ],
+    "expected_keywords": [
+      "test cases",
+      "regression testing",
+      "manual testing"
+    ],
+    "source_entity_ids": [
+      "role_qa_automation_tester"
+    ],
+    "generated_by": "llm"
+  },
+  {
+    "id": "reasoning_0006",
+    "query": "I've been using Vite to build my React applications, but I'm struggling to decide on the best approach for handling API errors in my frontend code. How would you suggest I structure my code to make it more maintainable and scalable for different types of errors?",
+    "type": "reasoning",
+    "expected_entities": [
+      "React Frontend Developer"
+    ],
+    "expected_keywords": [
+      "Vite",
+      "Figma",
+      "API integration"
+    ],
+    "source_entity_ids": [
+      "role_frontend_react_developer"
+    ],
+    "generated_by": "llm"
+  },
+  {
+    "id": "synthesis_0011",
+    "query": "What's the overlap and difference in tools used by a Java Backend Engineer versus a Data Scientist?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Java Backend Engineer",
+      "Data Scientist"
+    ],
+    "expected_keywords": [
+      "performance optimization",
+      "SQL",
+      "Gradle",
+      "Jupyter"
+    ],
+    "source_entity_ids": [
+      "role_java_backend_engineer",
+      "role_data_scientist"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "synthesis_0007",
+    "query": "If I already know Docker, should I lean toward Java Backend Engineer or Cloud Architect?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Java Backend Engineer",
+      "Cloud Architect"
+    ],
+    "expected_keywords": [
+      "Docker",
+      "MySQL",
+      "networking",
+      "JUnit",
+      "CloudWatch"
+    ],
+    "source_entity_ids": [
+      "role_java_backend_engineer",
+      "role_cloud_architect"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "reasoning_0004",
+    "query": "When working on a Spring Boot service that involves complex business logic and multiple API integrations, how would you balance the trade-off between using Hibernate for ORM and implementing custom SQL queries to optimize database performance, considering the potential impact on code maintainability and scalability?",
+    "type": "reasoning",
+    "expected_entities": [
+      "Java Backend Engineer"
+    ],
+    "expected_keywords": [
+      "Hibernate",
+      "microservices",
+      "security"
+    ],
+    "source_entity_ids": [
+      "role_java_backend_engineer"
+    ],
+    "generated_by": "llm"
+  },
+  {
+    "id": "lookup_0013",
+    "query": "What's a good portfolio project to demonstrate UI/UX Developer skills?",
+    "type": "lookup",
+    "expected_entities": [
+      "UI/UX Developer"
+    ],
+    "expected_keywords": [
+      "accessibility",
+      "Chrome DevTools",
+      "responsive design",
+      "React"
+    ],
+    "source_entity_ids": [
+      "role_ui_ux_developer"
+    ],
+    "generated_by": "template"
   }
 ]

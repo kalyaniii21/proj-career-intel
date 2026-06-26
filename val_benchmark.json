@@ -1,0 +1,189 @@
+[
+  {
+    "id": "reasoning_0009",
+    "query": "I'm familiar with using Redis for caching in my Python applications, but I'm not sure how I can effectively implement caching in a way that takes into account the authentication and authorization mechanisms I've set up. How can I ensure that sensitive data is not cached and that only authorized users can access cached results?",
+    "type": "reasoning",
+    "expected_entities": [
+      "Python Backend Engineer"
+    ],
+    "expected_keywords": [
+      "Redis",
+      "Pytest",
+      "Uvicorn"
+    ],
+    "source_entity_ids": [
+      "role_python_backend_engineer"
+    ],
+    "generated_by": "llm"
+  },
+  {
+    "id": "reasoning_0007",
+    "query": "When writing test cases from product requirements and acceptance criteria, how do you ensure that you're covering all the necessary edge cases and error states without overwhelming the development team with too many test scenarios?",
+    "type": "reasoning",
+    "expected_entities": [
+      "QA Automation Tester"
+    ],
+    "expected_keywords": [
+      "bug reporting",
+      "JUnit",
+      "Selenium"
+    ],
+    "source_entity_ids": [
+      "role_qa_automation_tester"
+    ],
+    "generated_by": "llm"
+  },
+  {
+    "id": "lookup_0002",
+    "query": "Which tools or technologies does a Full Stack Developer typically use?",
+    "type": "lookup",
+    "expected_entities": [
+      "Full Stack Developer"
+    ],
+    "expected_keywords": [
+      "Python",
+      "PostgreSQL",
+      "Node.js",
+      "deployment"
+    ],
+    "source_entity_ids": [
+      "role_full_stack_developer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "synthesis_0002",
+    "query": "How does a UI/UX Developer differ from a React Frontend Developer in day-to-day work?",
+    "type": "synthesis",
+    "expected_entities": [
+      "UI/UX Developer",
+      "React Frontend Developer"
+    ],
+    "expected_keywords": [
+      "CSS",
+      "Chrome DevTools",
+      "React",
+      "Storybook",
+      "user flows"
+    ],
+    "source_entity_ids": [
+      "role_ui_ux_developer",
+      "role_frontend_react_developer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "synthesis_0012",
+    "query": "What's the overlap and difference in tools used by a DevOps Engineer versus a Java Backend Engineer?",
+    "type": "synthesis",
+    "expected_entities": [
+      "DevOps Engineer",
+      "Java Backend Engineer"
+    ],
+    "expected_keywords": [
+      "SQL",
+      "infrastructure as code",
+      "Docker",
+      "Hibernate",
+      "Prometheus"
+    ],
+    "source_entity_ids": [
+      "role_devops_engineer",
+      "role_java_backend_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0005",
+    "query": "Which tools or technologies does a UI/UX Developer typically use?",
+    "type": "lookup",
+    "expected_entities": [
+      "UI/UX Developer"
+    ],
+    "expected_keywords": [
+      "CSS",
+      "responsive design",
+      "Figma",
+      "prototyping"
+    ],
+    "source_entity_ids": [
+      "role_ui_ux_developer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "synthesis_0009",
+    "query": "If I already know Git, should I lean toward Full Stack Developer or QA Automation Tester?",
+    "type": "synthesis",
+    "expected_entities": [
+      "Full Stack Developer",
+      "QA Automation Tester"
+    ],
+    "expected_keywords": [
+      "database design",
+      "test automation",
+      "Docker",
+      "Git",
+      "Postman"
+    ],
+    "source_entity_ids": [
+      "role_full_stack_developer",
+      "role_qa_automation_tester"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0006",
+    "query": "What interview topics should I prepare for a DevOps Engineer position?",
+    "type": "lookup",
+    "expected_entities": [
+      "DevOps Engineer"
+    ],
+    "expected_keywords": [
+      "Docker",
+      "deployment",
+      "CI/CD",
+      "Azure"
+    ],
+    "source_entity_ids": [
+      "role_devops_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0008",
+    "query": "Which tools or technologies does a Java Backend Engineer typically use?",
+    "type": "lookup",
+    "expected_entities": [
+      "Java Backend Engineer"
+    ],
+    "expected_keywords": [
+      "JUnit",
+      "SQL",
+      "MySQL",
+      "security"
+    ],
+    "source_entity_ids": [
+      "role_java_backend_engineer"
+    ],
+    "generated_by": "template"
+  },
+  {
+    "id": "lookup_0014",
+    "query": "What's a good portfolio project to demonstrate Database Developer skills?",
+    "type": "lookup",
+    "expected_entities": [
+      "Database Developer"
+    ],
+    "expected_keywords": [
+      "PostgreSQL",
+      "MySQL",
+      "DBeaver",
+      "stored procedures"
+    ],
+    "source_entity_ids": [
+      "role_database_developer"
+    ],
+    "generated_by": "template"
+  }
+]
