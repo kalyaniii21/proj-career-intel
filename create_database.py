@@ -1,30 +1,3 @@
-"""
-create_database.py
--------------------
-Rebuilds the Chroma vector store from data/career_intelligence_corpus.json.
-
-Changes vs. the original version:
-1. Real token-aware chunking (default 512 tokens, 75 overlap) instead of
-   one giant document per corpus entry. Short entries (the common case for
-   this corpus) still end up as a single chunk -- chunking only kicks in
-   when an entry's text actually exceeds chunk_size tokens.
-2. Near-duplicate chunk removal via a from-scratch MinHash implementation
-   (no extra dependency). This is O(n^2) chunk comparisons, which is fine
-   for a corpus of a few hundred-thousand chunks at most. At real scale
-   you'd want LSH banding instead -- out of scope here, flagged honestly.
-3. A post-build validation report (chunk counts, token-length stats,
-   how many entities got split) so you have *something* to point to for
-   the "validate the corpus" step. This is NOT a substitute for the
-   100-page human-reviewed boundary check the original curriculum spec
-   calls for -- it's an automated sanity check, not a quality judgment.
-
-Schema compatibility: every chunk's metadata still contains the exact same
-keys app_main.py reads (title, type, description, aliases, skills, tools,
-responsibilities, project_ideas, interview_questions, authority,
-base_trust_score) plus three new fields: chunk_index, total_chunks,
-parent_entity_id. app_main.py needs zero changes to keep working.
-"""
-
 import argparse
 import hashlib
 import json
